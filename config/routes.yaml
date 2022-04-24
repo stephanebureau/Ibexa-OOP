@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+app_homepage:
+    path: /{any}
+    controller: App\Controller\MainController::homepage
+    requirements:
+        any: .*
+    defaults: { any: ~ }
