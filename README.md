@@ -10,7 +10,7 @@ In order to have a simpler integration with Symfony logic, I have modifed a bit 
 ## files
 The code is splitted in the following files:
 * **src\Service\LoadBalancer.php** : the load balancer service as requested with 2 modes of loadbalancing (round robin and load sharing)
-* **src\Entity\HostInterface.php** : description of the interface that shall be supported by all host objects
+* **src\Entity\HostInterface.php** : description of the interface that shall be supported by all host instances
 * **tests\Service\LoadBalancerTest.php** : unit test (in PHPUnit) of the loadbalancer service
 
 
