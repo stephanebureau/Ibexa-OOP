@@ -15,7 +15,7 @@ The code is splitted in the following files:
 
 
 ## extra
-I have coded an example on how the loadbalancer service can be used in Symfony to implement a real load balancer. This coce is just an example and shall be improved to correctly work in production.
+I have coded an example on how the loadbalancer service can be used in Symfony to implement a real load balancer. This code is just an example and shall be improved to correctly work in production.
 
 The example can be found in following files :
 * **src\Entity\Host.php** : an basic implementation of the HostInterface. Remote server load is recovered via SNMP, requests are simply forwarded to remote server. More work is needed to make this code work properly with any remote host (including via https).
